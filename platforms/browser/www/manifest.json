@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Aplicacion para foraneos",
+  "short_name": "Aplicacion para foraneos",
+  "version": "com.estudhambre.app",
+  "description": "Hello World sample application that responds to the deviceready event.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}

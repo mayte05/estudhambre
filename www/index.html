@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oswald|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Estudhambre</title>
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+      <div class="panel panel-left panel-reveal">
+        <div class="wrap1">
+          <div class="perfil2" id="perfil2"><!--
+            <img src="../img/images/perfil1.jpg" class="perfilusuario" id="perfil2"></img>
+            <div class="perfil">Bienvendio</div>
+            <div class="perfil1" id="username">Usuario</div>-->
+          </div>
+          <div class="opciones">
+            <div class="opcion">Home</div>
+            <div class="list accordion-list">
+              <ul>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                      <div class="item-title">
+                        <div class="opcion">Recetario</div>
+                      </div>
+                    </div></a>
+                  <div class="accordion-item-content">
+                    <div class="block">
+                      <ul>
+                        <a href="/sopas/" class="panel-close">
+                          <li class="opcion1">Sopas</li>
+                        </a>
+                        <li class="opcion1">Ensaladas</li>
+                        <li class="opcion1">Plato fuerte</li>
+                        <li class="opcion1">Postre</li>
+                        <li class="opcion1">Bebidas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                      <div class="item-title">
+                        <div class="opcion">Lugares para comer</div>
+                      </div>
+                    </div></a>
+                  <div class="accordion-item-content">
+                    <div class="block">
+                      <ul>
+                        <a href="/comidar/" class="panel-close">
+                          <li class="opcion1">Restaurantes</li></a>
+                        <li class="opcion1">Comida corrida</li>
+                        <li class="opcion1">Antojitos</li>
+                        <li class="opcion1">Cafeterias</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="accordion-item"><a href="#" class="item-content item-link">
+                    <div class="item-inner">
+                      <div class="item-title">
+                        <div class="opcion">Entretenimiento</div>
+                      </div>
+                    </div></a>
+                  <div class="accordion-item-content">
+                    <div class="block">
+                      <ul>
+                        <a href="/antros/" class="panel-close">
+                          <li class="opcion1">Antros</li>
+                        </a>
+                        <li class="opcion1">Bares</li>
+                        <li class="opcion1">Karahokes</li>
+                        <li class="opcion1">Eventos</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a href="/contacto/" class="panel-close">
+                <div class="opcion">Contacto</div>
+            </a>
+            <a href="/favoritos/" class="panel-close">
+                <div class="opcion">Favoritos</div>
+            </a>
+            <a href="javascript:void(0)" onclick="app.loginClose()" class="panel-close">
+            <div class="opcion">Salir</div>
+          </a>
+
+          </div>
+
+        </div>
+    </div>
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Estudhambre</div>
+            </div>
+          </div>
+
+          <!-- Toolbar 
+          <div class="toolbar">
+            <div class="toolbar-inner">
+               Toolbar links 
+              <a href="#" class="link">Link 1</a>
+              <a href="#" class="link">Link 2</a>
+            </div>
+          </div>-->
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <div class="wrap">
+                <div class="titulo1"><b>Registra tu cuenta</b></div>
+                <div class="separacion"></div>
+                <div class="registro">
+                    <input type="text" name="usuario" placeholder="Usuario" class="datos" id="usuario">
+                    <input type="password" name="password" placeholder="Contraseña" class="datos" id="password">
+                    <div class="registrarse">Olvidé mi contraseña</div>
+                    
+                      <a href="/home/">
+                      <button class="col button button-raised button-fill button-round" id="inicio">Ingresar</button></a>
+                     
+                </div>
+                <div class="easy">
+                    <div class="easyway">Ingresar con:</div>
+                    <div class="face"><i class="demo-icon icon-facebook-squared"></i></div>
+                    <div class="link1"><i class="demo-icon icon-gplus-squared"></i></div>
+                </div>
+                <div class="signup">
+                  <div class="registrarse">No tengo cuenta</div>
+                  <a href="/registrarse/">
+                    <div class="registrarse">Registrarse</div>
+                  </a>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

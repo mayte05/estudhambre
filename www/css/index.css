@@ -1,0 +1,507 @@
+.wrap{
+    padding: 15px;
+}
+.wrap1{
+    padding: 15px;
+    background: url(../img/images/descarga2.jpg);
+    width: 100%;
+    background-size: contain;
+    height: 1000px;
+
+}
+.navbar-inner{
+    background: #66CC33;
+    padding: 5px;
+}
+.title{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 28px;
+    color: black;
+    text-align: center !important;
+    margin: 0 26% 0 26% !important;
+}
+.title1{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 28px;
+    color: black;
+    text-align: center !important;
+    margin: 0 13% 0 13% !important;
+}
+.title2{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 28px;
+    color: black;
+    text-align: center !important;
+    margin: 0 20% 0 20% !important;
+}
+.titulo1{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+.separacion{
+    height: 5px;
+    background: #66CC33;
+    width: 30%;
+    margin: 30px 35% 0 35%;
+    border-radius: 5px;
+}
+.registro{
+    margin-top: 35px;
+}
+.datos{
+    width: 100%;
+    height: 30px !important;
+    margin-bottom: 20px !important;
+    font-family: Indie Flower, cursive !important;
+    font-size: 25px !important;
+    border: 1px solid gray !important;
+    padding: 10px !important;
+    border-radius: 15px !important;
+}
+.button{
+    background: #66CC33 !important;
+    width: 50%;
+    margin: 30px 25% 0 25%;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 25px;
+}
+.easy{
+    margin: 25px 30% 0 30%;
+    height: 100px;
+}
+.easyway{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+
+}
+.face{
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    background: #3b5998;
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    padding: 5px;
+    margin: 12px;
+    float: left;
+    border-radius: 15px;
+}
+.twit{
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    background:#00aced;
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    padding: 5px;
+    margin: 12px;
+    float: left;
+    border-radius: 15px;
+}
+.insta{
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    background: #8a3ab9;
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    padding: 5px;
+    margin: 12px;
+    float: left;
+    border-radius: 15px;
+}
+.link1{
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    background: #db3236;
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    padding: 5px;
+    margin: 12px;
+    float: left;
+    border-radius: 15px;
+}
+.signup{
+    height: 100px;
+    margin-top: 20px;   
+}
+.registrarse{
+   font-family: 'Source Sans Pro', sans-serif !important;
+   color:black;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.perfilusuario{
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px 25% 0 25%;
+}
+.perfil{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 20px ;
+    text-align: center;
+    margin-top: 20px;
+}
+.perfil1{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.perfil2{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.opciones{
+    margin-top: 15px;
+    width: 100%;
+}
+.opcion{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background: #66CC33;
+    height: auto;
+    padding: 5px;
+    color: white;
+    /*width: 100% !important;
+    border-radius: 25%;*/
+}
+.opcion1{
+    font-family: Indie Flower, cursive !important;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background: #a05000;
+    height: auto;
+    padding: 5px;
+    color: white;
+    border-radius: 20%;
+}
+.list{
+    margin: 0px auto!important;
+}
+.item-content{
+    padding: 0px !important;
+}
+.item-inner{
+    padding: 0px !important;
+    width: 100px;
+}
+.item-title{
+    width: 100%;
+}
+.swiper-wrapper{
+    height:250px;
+    width: 100%;
+    position: relative;
+}
+.swiper-slide{
+    position: relative;
+}
+.news{
+    width: 100%;
+    position: relative;
+    opacity: 0.8 !important;
+}
+.platillo{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left:35%;
+    color:black;
+}
+.duracion{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 15px;
+    position: absolute;
+    top: 155px;
+    text-align: right;
+    left: 70%;
+    color:black;
+}
+.iniciar{
+    background: #66CC33 !important;
+    position: absolute !important;
+    top: 180px !important;
+    left: 25%;
+    width: 30%;
+    margin: 0px 0 0 40%;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 18px;
+    height: 30px !important;
+    line-height: 0px !important;
+}
+.menu{
+    height: 150px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.menu1{
+    height: 210px;
+    position: relative;
+    margin-bottom: 10px;
+    width: 45%;
+    float: left;
+    margin: 0 2.5% 15px 2.5%;
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.menu2{
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+    width: 45%;
+    float: left;
+    margin: 0 2.5% 15px 2.5%;
+    border-radius: 20px !important;
+    background: url(../img/images/descarga2.jpg);
+    height: auto;
+}
+.recetario{
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 140px;
+    border-radius: 30px !important;    
+}
+.recetario1{
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 140px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;    
+}
+.opcionmenu{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 25px;
+    background: #66CC33;
+    height: 30px;
+    padding: 5px;
+    color: black;
+}
+.opcionmenu1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 25px;
+    color: white;
+    background: #66CC33;
+    height: 30px;
+    padding: 5px;
+    color: black;
+}
+.opcionmenu2{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 23px;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    color: black;
+}
+.opcionmenu3{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 17px;
+    color: white;
+    height: auto;
+    padding: 2px;
+    color: black;
+    position: relative;
+}
+.opcionmenu4{
+    font-family: Indie Flower, cursive !important;
+    font-size: 15px;
+    color: white;
+    padding: 2px;
+    height: 30px;
+    color: black;
+    position: relative;
+    text-align: right;
+}
+.tab-link{
+    background: #59A727;
+}
+.tab-link-active{
+    background: #AF601A;
+
+}
+.block{
+    margin: 0px auto !important;
+    padding: 0px !important;
+}
+.ejemplo{
+    width: 100%;
+}
+.nombre{
+    text-align: center;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.tiempo{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.ingredientes{
+    width: 100%;
+    height: auto;
+    font-family: Indie Flower, cursive !important;
+    font-size: 25px !important;
+}
+.icon-search-1{
+    margin-right: 20px !important;
+}
+
+/*************************************************
+MENU DE COMIDA RÁPIDA
+*************************************************/
+.lugar{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left:35%;
+    color:black;
+}
+.distancia{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 15px;
+    position: absolute;
+    top: 155px;
+    text-align: right;
+    left: 50%;
+    color:black;
+}
+.local{
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 140px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;    
+}
+/************************************************
+MENU ENTRETENIMIENTO
+*************************************************/
+.local{
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 140px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;    
+}
+
+/************************************************
+CONTACTO
+*************************************************/
+.inst{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.textaso{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Indie Flower, cursive !important;
+    color:black;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+    border: 1px solid gray !important;
+    padding: 5px !important;
+    border-radius: 15px !important;
+    width: 90%; 
+    }
+.textaso1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Indie Flower, cursive !important;
+    color:black;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+    border: 1px solid gray !important;
+    padding: 5px !important;
+    border-radius: 15px !important;
+    width: 94%; 
+    height: 150px;
+    }
+
+/*******************************************************
+VISTA RESTAURANTES Y ANTROS
+********************************************************/
+.mapa{
+    
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?78343908');
+      src: url('../font/fontello.eot?78343908#iefix') format('embedded-opentype'),
+           url('../font/fontello.woff?78343908') format('woff'),
+           url('../font/fontello.ttf?78343908') format('truetype'),
+           url('../font/fontello.svg?78343908#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .demo-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
