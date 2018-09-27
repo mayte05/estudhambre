@@ -17,7 +17,7 @@ var app7 = new Framework7({
 var mainView =app7.views.create('.view-main')
 var app = {
   autenticado: false,
-  hostname:"http://localhost/estudhambre",
+  hostname:"http://www.estudhambre.com",
   usuario:"",
   password: "",
   nombrecompleto:"",
